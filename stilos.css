@@ -1,0 +1,104 @@
+*{	background: #FFF8DC;}
+.HOJA:hover{color: black;}
+.foto1{width: 300px;height: 250px;border: solid black;}
+.stefano{float: left;background:7red;width: 700px;height: 300px; margin-top: 0CM;}
+.liz{float: left;width: 700px;	height: 300px;	padding-left: 1CM;}
+.carlos{float: left;width: 700px;height: 300px;padding-left: 1CM;margin-top: 6CM;}
+.chila{float: left;width: 700px;height: 300px;margin-top: 6CM;}
+.ab{background: red; width: 200px; height: 200px;}
+.empresa{background: red;}
+.default{height: 100%;width: 100%;border-top: red;	font-family: Geogia;	color: black;	position: relative;	border:
+  solid white;	border-radius: 5% ; 	border: 2px solid white;	font font-weight: unset;}
+
+
+
+	<style>
+	.container {
+		width:100%;
+		margin:0px auto;
+		font-size:1.2em;
+	}
+	section,aside {
+		padding: 10px;
+		background:#ccc;
+		-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+	}
+	section {
+		float: left;
+		width: 70%;
+	}
+	aside {
+		float: right;
+		width: 25%;
+	}
+	nav {
+		overflow: hidden;
+	}
+	nav ul {
+		list-style-type:none;
+		float:left;
+		padding:0px;
+	}
+	nav ul li {
+		float:left;
+		padding:3px 10px;
+		margin:2px;
+		background:#ccccff;
+		-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+	}
+	footer {
+		margin:10px;
+		text-align:center;
+		clear:both;
+	}
+ 
+	/* para 980px o menos */
+	@media screen and (max-width:980px) {
+		.container {
+			width:98%;
+		}
+		section {
+			width:68%;
+			font-size:1.2em;
+		}
+	}
+ 
+	/* para 700px o menos */
+	@media screen and (max-width:700px) {
+		aside,section {
+			float:none;
+			width:96%;
+		}
+		nav, section {
+			font-size:1.2em;
+		}
+		aside {
+			margin-top:5px;
+		}
+		nav ul {
+			float:none;
+			clear:both;
+		}
+	}
+
+	@media screen and (max-width:480px) {
+		aside {
+			display:none;
+		}
+		nav, section {
+			font-size:1.5em;
+		}
+		section {
+			width:94%;
+		}
+		nav ul {
+			float:left;
+			clear:none;
+			width:50%;
+		}
+		nav ul li {
+			float:none;
+		}
+	}
+	</style>
+
